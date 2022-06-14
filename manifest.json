@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Slake Surf",
+	"description": "Earn airtime from browsing",
+	"version": "1.0",
+	"author": "Praise James from Slakenet",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {"default_icon": "tab-icon.png",
+		"default_title": "Slake Surf",
+	"default_popup": "popup.html"},
+	"permissions": ["history"]
+}
